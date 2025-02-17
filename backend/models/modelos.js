@@ -27,8 +27,8 @@ module.exports = (sequelize, DataTypes) => {
             type: DataTypes.STRING(500)
         }
     }, {
-        tableName: 'cuenta', // Asegura que use el nombre exacto de la tabla en la BD
-        timestamps: false // Evita que agregue `createdAt` y `updatedAt`
+        tableName: 'cuenta', 
+        timestamps: false
     });
 
     return Cuenta;
